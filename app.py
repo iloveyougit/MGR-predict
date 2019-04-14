@@ -50,7 +50,7 @@ from create_data_pickle import get_default_shape
 
 import time
 
-import easygui
+#import easygui
 
 
 
@@ -84,7 +84,7 @@ labels = {0:"blues",1:"classical",2:'country', 3:'disco',4:'hiphop',5:'jazz',6:'
 
 
 def ini():
-	testset_path=easygui.fileopenbox()
+	#testset_path=easygui.fileopenbox()
 	return 1
 
 
